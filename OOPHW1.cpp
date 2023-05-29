@@ -53,7 +53,7 @@ public:
     }
 
     void print() const {
-        std::cout << numerator << "/" << denominator << std::endl;
+        cout << numerator << "/" << denominator << std::endl;
     }
 
 
@@ -77,16 +77,16 @@ int main()
     Drob product = d1.multiply(d2);
     Drob quotient = d1.divide(d2);
 
-    std::cout << "Сумма: ";
+    cout << "Сумма: ";
     sum.print();
 
-    std::cout << "Разность: ";
+    cout << "Разность: ";
     difference.print();
 
-    std::cout << "Произведение: ";
+    cout << "Произведение: ";
     product.print();
 
-    std::cout << "Частное: ";
+    cout << "Частное: ";
     quotient.print();
 
 }
